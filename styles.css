@@ -111,17 +111,14 @@ i:hover {
     #email,
     #notify {
         width: 60%;
-        padding: 2%;
+        padding: 3%;
     }
 
     .onSubmit {
         position: relative;
         right: 10%;
         margin-top: 1%;
-        font-size: 0.3em;
-    }
-    input{
-        padding: 2%;
+        font-size: 0.1em;
     }
 }
 
