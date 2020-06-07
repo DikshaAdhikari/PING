@@ -118,11 +118,8 @@ i:hover {
     }
 
     .onSubmit {
-        position: relative;
-/*         right: 10%; */
         margin-top: 1%;
         font-size: 0.3rem;
-        text-align:center;
     }
 }
 
