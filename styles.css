@@ -120,6 +120,8 @@ i:hover {
     .onSubmit {
         margin-top: 1%;
         font-size: 0.3rem;
+        text-align: left;
+    margin-left: 0%;
     }
 }
 
