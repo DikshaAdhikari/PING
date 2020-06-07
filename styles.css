@@ -107,7 +107,10 @@ i:hover {
 
 /* depending on device's screen size */
 @media screen and (max-width: 660px) {
-
+    body{
+        padding: 15% 0% 2%;
+    }
+    
     #email,
     #notify {
         width: 60%;
