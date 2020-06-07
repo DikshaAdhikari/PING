@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/* declaring variales */
+:root {
+    --blue: hsl(223, 87%, 63%);
+    --pale-blue: hsl(223, 100%, 88%);
+    --light-red: hsl(354, 100%, 66%);
+    --gray: hsl(0, 0%, 59%);
+    --very-dark-blue: hsl(209, 33%, 12%);
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+    padding: 7% 0%;
+}
+
+/* heading and sub-heading */
+h1 {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    color: var(--gray);
+    font-weight: 300;
+}
+
+h1 span {
+    color: var(--very-dark-blue);
+    font-weight: 700;
+}
+
+.small {
+    margin: 0%;
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--very-dark-blue);
+}
+
+/* form styling */
+input {
+    border-radius: 2em;
+    padding: 1% 2% 1%;
+    border: none;
+    margin-top: 2%;
+    outline: none;
+}
+
+#email {
+    border: 1px solid var(--pale-blue);
+    width: 27%;
+    margin-right: 1%;
+}
+
+#notify {
+    background-color: var(--blue);
+    color: white;
+    width: 12%;
+    cursor: pointer;
+    box-shadow: 1px 2px 4px 3px var(--pale-blue);
+    font-weight: 600;
+}
+
+
+/* dashboard */
+.dashboard img {
+    margin: 6%;
+    width: 50%;
+}
+
+/* styling icons */
+.icon {
+    color: var(--blue);
+    padding-bottom: 4%;
+}
+
+i {
+    border: 1px solid var(--pale-blue);
+    border-radius: 100%;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.fb,
+.ins {
+    padding: 12px 15px;
+}
+
+/* copyright */
+.b {
+    color: gray;
+}
+
+/* hover effects */
+i:hover {
+    background-color: var(--blue);
+    color: white;
+}
+
+#notify:hover {
+    opacity: 0.8;
+}
+
+/* depending on device's screen size */
+@media screen and (max-width: 660px) {
+
+    #email,
+    #notify {
+        width: 60%;
+        padding: 2%;
+    }
+
+    .onSubmit {
+        position: relative;
+        right: 10%;
+        margin-top: 1%;
+        font-size: 0.5em;
+    }
+}
+
+/* added removed via JS */
+.onSubmit {
+    text-align: left;
+    margin-left: 32%;
+    font-size: 0.6em;
+    font-style: italic;
+    color: var(--light-red);
+    font-weight: 600;
+    padding-top: 0.5%;
+}
